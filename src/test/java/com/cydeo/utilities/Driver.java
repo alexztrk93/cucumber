@@ -75,7 +75,7 @@ public class Driver {
                     }
                     break;
 
-                //IP --> 44.201.219.205
+                //IP --> http://54.166.224.149/
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     driverPool.set(new ChromeDriver());
